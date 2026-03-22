@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Полная Инструкция V4 — Ассистент Дизайнера / AI-оператор</title>
+  <meta name="description" content="Интерактивное руководство для AI-оператора и ассистента дизайнера Amazon Agency. 18 разделов + аудио версия." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Ambient background -->
+  <div class="ambient-bg" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <!-- Mobile sidebar toggle -->
+  <button class="sidebar-toggle" id="sidebar-toggle" aria-label="Меню">
+    <span></span><span></span><span></span>
+  </button>
+
+  <!-- Sidebar Navigation -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <div class="sidebar-logo">
+        <span class="logo-diamond">◆</span>
+        <span class="logo-text">Инструкция <span class="logo-ver">V4</span></span>
+      </div>
+    </div>
+    <nav class="sidebar-nav" id="sidebar-nav">
+      <a href="#section-1" class="nav-item active" data-section="section-1"><span class="nav-num">01</span>О компании</a>
+      <a href="#section-2" class="nav-item" data-section="section-2"><span class="nav-num">02</span>Требования</a>
+      <a href="#section-3" class="nav-item" data-section="section-3"><span class="nav-num">03</span>Установка ПО</a>
+      <a href="#section-4" class="nav-item" data-section="section-4"><span class="nav-num">04</span>Тестовый созвон</a>
+      <a href="#section-5" class="nav-item" data-section="section-5"><span class="nav-num">05</span>Рабочий процесс</a>
+      <a href="#section-6" class="nav-item" data-section="section-6"><span class="nav-num">06</span>Midjourney</a>
+      <a href="#section-7" class="nav-item" data-section="section-7"><span class="nav-num">07</span>CLO 3D</a>
+      <a href="#section-8" class="nav-item" data-section="section-8"><span class="nav-num">08</span>Дизайн-принципы</a>
+      <a href="#section-9" class="nav-item" data-section="section-9"><span class="nav-num">09</span>Отчётность</a>
+      <a href="#section-10" class="nav-item" data-section="section-10"><span class="nav-num">10</span>Оплата</a>
+      <div class="nav-divider"></div>
+      <a href="#section-audio" class="nav-item" data-section="section-audio"><span class="nav-icon">🎧</span>Аудио</a>
+      <a href="#section-12" class="nav-item" data-section="section-12"><span class="nav-icon">🌅</span>День из жизни</a>
+      <a href="#section-13" class="nav-item" data-section="section-13"><span class="nav-icon">✅</span>Чеклист</a>
+      <a href="#section-14" class="nav-item" data-section="section-14"><span class="nav-icon">⚖️</span>Хорошо vs Плохо</a>
+      <a href="#section-15" class="nav-item" data-section="section-15"><span class="nav-icon">⚠️</span>Ошибки</a>
+      <a href="#section-16" class="nav-item" data-section="section-16"><span class="nav-icon">📖</span>Глоссарий</a>
+      <a href="#section-faq" class="nav-item" data-section="section-faq"><span class="nav-icon">❓</span>FAQ</a>
+    </nav>
+    <div class="sidebar-footer">
+      <button class="theme-toggle" id="theme-toggle" aria-label="Переключить тему">
+        <span class="theme-icon-dark">🌙</span>
+        <span class="theme-icon-light">☀️</span>
+      </button>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content" id="main-content">
+
+    <!-- Hero / Intro -->
+    <header class="hero-section">
+      <div class="hero-inner reveal">
+        <div class="hero-badge">Интерактивное руководство — 18 разделов + аудио</div>
+        <h1 class="hero-title">Полная Инструкция</h1>
+        <p class="hero-subtitle">Ассистент дизайнера / AI&#8209;оператор</p>
+        <p class="hero-desc">От первого дня до уверенной работы</p>
+      </div>
+    </header>
+
+    <!-- Section 1: О компании -->
+    <section class="content-section" id="section-1">
+      <div class="section-anchor"></div>
+      <div class="card reveal">
+        <div class="card-header">
+          <span class="card-number">01</span>
+          <h2>О компании и позиции</h2>
+        </div>
+        <div class="card-body">
+          <p>Мы — <strong>Amazon Agency</strong>, помогаем различным брендам решать бизнес- и дизайн-задачи на зарубежных рынках. Мы создаём дизайны для <strong>all-over print sublimation</strong> мужских футболок. Каждый дизайн проходит путь от генерации в Midjourney через редактирование до наложения на 3D-модель в CLO 3D.</p>
+          <p>Это ассистентская позиция на стыке творчества и порядка:</p>
+          <div class="split-cards">
+            <div class="mini-card">
+              <div class="mini-card-pct">~70%</div>
+              <div class="mini-card-label">Рутина</div>
+              <p>Генерация вариантов в Midjourney, наложение на футболки в CLO 3D, скриншоты, организация файлов.</p>
+            </div>
+            <div class="mini-card accent">
+              <div class="mini-card-pct">~30%</div>
+              <div class="mini-card-label">Творчество</div>
+              <p>Подбор центральной части дизайна, работа с композицией, цветовым балансом.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: Требования -->
+    <section class="content-section" id="section-2">
+      <div class="card reveal">
+        <div class="card-header">
+          <span class="card-number">02</span>
+          <h2>Требования и график работы</h2>
+        </div>
+        <div class="card-body">
+          <div class="req-grid">
+            <div class="req-item"><span class="req-icon">🕐</span><strong>Полная занятость:</strong> 40 часов в неделю (5/2 по 8 часов в день). Совмещать с другой работой или учёбой нельзя.</div>
+            <div class="req-item"><span class="req-icon">🌅</span><strong>Ранний старт:</strong> идеально с 5:00 утра по МСК. Укажите Ваш точный график.</div>
+            <div class="req-item"><span class="req-icon">💻</span><strong>Мощный ПК:</strong> компьютер должен стабильно тянуть CLO 3D + стабильный интернет.</div>
+            <div class="req-item"><span class="req-icon">👁️</span><strong>Внимательность:</strong> умение делать дизайны строго по правилам и изначальному ТЗ.</div>
+            <div class="req-item"><span class="req-icon">🇬🇧</span><strong>Английский:</strong> промпты на английском — на старте мы дадим шаблоны. Со временем нужно понимать базовый письменный английский.</div>
+            <div class="req-item"><span class="req-icon">⚡</span><strong>Главное качество:</strong> способность быстро понимать инструкции и чётко следовать заданиям с первого слова.</div>
+          </div>
+          <div class="callout callout-warning">
+            <div class="callout-title">⚠️ О перерывах и паузах</div>
+            <p>Вы обязательно должны делать перерывы в течение дня. Кушать, отдыхать, отходить — это нормально и нужно. Просто пишите <code>/out</code> когда уходите на паузу и <code>/in</code> когда возвращаетесь. Вы можете разбить 8 часов на весь день как Вам удобно. Единственное правило — набрать 40 часов в неделю.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Установка ПО -->
+    <section class="content-section" id="section-3">
+      <div class="card reveal">
+        <div class="card-header">
+          <span class="card-number">03</span>
+          <h2>Установка программного обеспечения</h2>
+        </div>
+        <div class="card-body">
+          <p>До тестового созвона у Вас <strong>ОБЯЗАТЕЛЬНО</strong> должны быть установлены:</p>
+          <div class="callout callout-info">
+            <div class="callout-title">🔗 Ссылки для скачивания CLO 3D</div>
+            <ul>
+              <li>Для macOS: <a href="https://appstorrent.ru/491-clo.html" target="_blank" rel="noopener">appstorrent.ru/491-clo.html</a></li>
+              <li>Для Windows: <a href="https://pcprogs.net/1639-clo.html" target="_blank" rel="noopener">pcprogs.net/1639-clo.html</a></li>
+            </ul>
+            <p>На этих же сайтах можно найти Photoshop и Illustrator.</p>
+          </div>
+          <h3>Что мы предоставляем:</h3>
+          <ul class="styled-list">
+            <li>Платный аккаунт Midjourney (логин и пароль через Discord выдаём при приёме).</li>
+            <li>Готовые исходные файлы CLO 3D (<code>.zprj</code>) с 3D-моделью футболки.</li>
+            <li>Промпт-шаблоны для генерации дизайнов.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Тестовый созвон -->
+    <section class="content-section" id="section-4">
+      <div class="card reveal">
+        <div class="card-header">
+          <span class="card-number">04</span>
+          <h2>Первый тестовый созвон (1 час)</h2>
+        </div>
+        <div class="card-body">
+          <p>Формат: менеджер будет давать Вам задачи в режиме реального времени со screenshare (показ Вашего экрана).</p>
+
+          <div class="callout callout-danger">
+            <div class="callout-title">🔴 ОБЯЗАТЕЛЬНЫЕ УСЛОВИЯ для созвона</div>
+            <ol>
+              <li>Программа CLO 3D уже установлена и запускается.</li>
+              <li>Вы готовы показать экран (screenshare). Камеру включать НЕ нужно.</li>
+              <li>Вы указали точное время и день, когда готовы к созвону.</li>
+            </ol>
+          </div>
+
+          <div class="callout callout-warning">
+            <div class="callout-title">⚠️ Важно об оплате тестового часа</div>
+            <p>Тестовый час оплачивается только в случае продолжения работы.</p>
+          </div>
+
+          <h3>Зачем нужна часовая встреча и показ экрана?</h3>
+          <p>Самое главное — это ваша способность быстро понимать и чётко следовать инструкциям. Например: «нажмите сюда», «скопируйте это», «откройте два окна рядом», «перетащите файл». Вы должны делать это быстро и точно.</p>
+          <p>Самый плохой результат для нас — когда нам приходится повторять одно и то же несколько раз. Самое главное — чтобы вы понимали нас с первого слова. А всему остальному мы вас научим, не переживайте!</p>
+
+          <h3>📞 Как проходят звонки</h3>
+          <p>Обычно все созвоны проходят в Telegram — мы создадим Вам рабочую группу, и там же Вы будете в звонке с показом экрана.</p>
+          <p>Однако если Вы находитесь в России — звонки через Telegram могут работать нестабильно. В этом случае, пожалуйста, заранее создайте <strong>Яндекс Телемост</strong> (<a href="https://telemost.yandex.ru" target="_blank" rel="noopener">telemost.yandex.ru</a>) и пришлите ссылку менеджеру.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Рабочий процесс -->
+    <section class="content-section" id="section-5">
+      <div class="card reveal">
+        <div class="card-header">
+          <span class="card-number">05</span>
+          <h2>Рабочий процесс: от начала до конца</h2>
+        </div>
+        <div class="card-body">
+          <h3>Начало рабочего дня</h3>
+          <p>Напишите <code>/in</code> в рабочем чате Telegram — таймер начинает считать время.</p>
+          <p>Менеджер даёт Вам исходное изображение или промпт-задание + файл CLO 3D (<code>.zprj</code>).</p>
+
+          <h3>Основной цикл работы (повторяется весь день)</h3>
+          <div class="workflow-steps">
+            <div class="workflow-step">
+              <div class="step-num">1</div>
+              <div class="step-content">
+                <strong>Генерация в Midjourney (Create)</strong>
+                <p>Создание вариантов дизайнов по промптам, подбор «центра» (середины) для туловища футболки.</p>
+              </div>
+            </div>
+            <div class="workflow-step">
+              <div class="step-num">2</div>
+              <div class="step-content">
+                <strong>Редактирование в Midjourney (Edit)</strong>
+                <p>Доработка выбранного центра: убираем белые линии, расширяем область через несколько слоёв.</p>
+              </div>
+            </div>
+            <div class="workflow-step">
+              <div class="step-num">3</div>
+              <div class="step-content">
+                <strong>Наложение в CLO 3D</strong>
+                <p>Скачиваем готовую текстуру, загружаем в CLO 3D, проверяем на 3D-модели.</p>
+              </div>
+            </div>
+            <div class="workflow-step">
+              <div class="step-num">4</div>
+              <div class="step-content">
+                <strong>Скриншот + отправка</strong>
+                <p>Делаем скриншот полного экрана CLO 3D, отправляем в чат вместе с файлом <code>.zprj</code>.</p>
+              </div>
+            </div>
+            <div class="workflow-step">
+              <div class="step-num">5</div>
+              <div class="step-content">
+                <strong>Повтор</strong>
+                <p>Повторяем с разными вариациями. Цель — минимум 10 финальных версий одного дизайна за 8-часовой день.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="callout callout-success">
+            <div class="callout-title">✅ Дневная норма (ориентир)</div>
+            <p>1 дизайн = 8 часов = минимум 10 финальных версий (скриншоты + .zprj файлы). По мере набора опыта — за 4 часа.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6: Midjourney -->
+    <section class="content-section" id="section-6">
+      <div class="card reveal">
+        <div class="card-header">
+          <span class="card-number">06</span>
+          <h2>Midjourney: полное руководство</h2>
+        </div>
+        <div class="card-body">
+          <h3>6.1 Доступ</h3>
+          <p>Мы выдадим Вам логин и пароль Discord-аккаунта с платной подпиской Midjourney. Работа ведётся через веб-интерфейс (<a href="https://midjourney.com" target="_blank" rel="noopener">midjourney.com</a>).</p>
+
+          <h3>6.2 Режим Create (Генерация)</h3>
+          <ul class="styled-list">
+            <li><strong>Лимит:</strong> максимум 10 изображений за раз. Следите за очередью, делайте refresh.</li>
+            <li><strong>Fast vs Relax:</strong> используйте Fast для приоритетных задач (Edit), Relax для массовых генераций. Менеджер скажет, когда переключаться.</li>
+            <li><strong>Выбор лучших:</strong> ставьте лайки (эмодзи) в Telegram на свои лучшие варианты, ТОП-3 отмечайте отдельно.</li>
+            <li><strong>Zoom 2x:</strong> попробуйте увеличение на понравившихся вариантах — иногда это значительно улучшает результат для центра.</li>
+            <li><strong>More Options:</strong> нажмите на фотографию → More Options → поставьте галочки на всём.</li>
+          </ul>
+
+          <h3>6.3 Режим Edit (Редактирование)</h3>
+          <ul class="styled-list">
+            <li><strong>Расстояние между элементами:</strong> оставляйте минимум 3-4 квадратика пустого пространства. Midjourney заполнит пустые места.</li>
+            <li><strong>Промпт для Edit:</strong> откройте новый Edit, загрузите один файл, нажмите ⭐, скопируйте промпт и используйте в основном Edit.</li>
+            <li>Не используйте ⭐ с несколькими слоями! Звёздочка — только когда один файл.</li>
+            <li>Не прикасайтесь к краям! Середину делайте побольше.</li>
+            <li><strong>Белые линии:</strong> уберите ластиком или обрежьте вокруг.</li>
+            <li><strong>Закруглённые края:</strong> скачивайте изображение и загружайте файлом (drag & drop).</li>
+          </ul>
+
+          <h3>6.4 Промпты</h3>
+          <ul class="styled-list">
+            <li>Все промпты на английском. Шаблон: <code>"abstract all-over print sublimation men t-shirt pattern"</code></li>
+            <li>Удачный вариант → Rerun 20-30 раз для вариаций.</li>
+            <li>Используйте Remix и Variation на лучших результатах.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 7: CLO 3D -->
+    <section class="content-section" id="section-7">
+      <div class="card reveal">
+        <div class="card-header">
+          <span class="card-number">07</span>
+          <h2>CLO 3D: работа с проектами</h2>
+        </div>
+        <div class="card-body">
+          <h3>7.1 Открытие проекта</h3>
+          <p>Менеджер отправит файл <code>.zprj</code> в Telegram. Скачайте и откройте в CLO 3D.</p>
+
+          <h3>7.2 Наложение текстуры</h3>
+          <ul class="styled-list">
+            <li>Скачайте изображение из Midjourney (Download в Edit).</li>
+            <li>Перетащите на нужный слой (туловище, рукав и т.д.).</li>
+            <li>Проверьте результат на 3D-модели.</li>
+          </ul>
+
+          <div class="callout callout-danger">
+            <div class="callout-title">🔴 ВАЖНО: Слои</div>
+            <p>НЕ разъединяйте слои без менеджера! Работу со слоями делаем только вместе по screenshare.</p>
+          </div>
+
+          <h3>7.5 Сохранение и отправка файлов</h3>
+          <ul class="styled-list">
+            <li><strong>Сохранение:</strong> File → Save Project (без "All Files" — быстрее и меньше).</li>
+            <li><strong>Ежедневно:</strong> <code>.zprj</code> файлы. ZIP — только для финала.</li>
+            <li><strong>Именование:</strong> имя в CLO 3D НЕ меняет имя файла на диске!</li>
+            <li>Компьютер — всегда на зарядке!</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 8: Дизайн-принципы -->
+    <section class="content-section" id="section-8">
+      <div class="card reveal">
+        <div class="card-header">
+          <span class="card-number">08</span>
+          <h2>Дизайн-принципы (ТЗ)</h2>
+        </div>
+        <div class="card-body">
+          <h3>8.1 Три золотых правила дизайна</h3>
+          <div class="rules-grid">
+            <div class="rule-card">
+              <div class="rule-icon">📐</div>
+              <h4>Правило 1: МАСШТАБ</h4>
+              <p>На футболке должно быть достаточное количество визуальных «сюжетов». Если менеджер сказал сделать 8 сюжетов — делайте ровно 8, не 2 и не 3!</p>
+            </div>
+            <div class="rule-card">
+              <div class="rule-icon">⚖️</div>
+              <h4>Правило 2: БАЛАНС</h4>
+              <p>Все «сюжеты» равномерно распределены по туловищу. Левая и правая стороны уравновешены.</p>
+            </div>
+            <div class="rule-card">
+              <div class="rule-icon">🔥</div>
+              <h4>Правило 3: ЭНЕРГИЯ</h4>
+              <p>Невидимое направление движения рисунка. Представьте, что дизайн — это река: все элементы текут в одном направлении. Это создаёт ощущение единого, живого дизайна.</p>
+            </div>
+          </div>
+
+          <div class="callout callout-warning">
+            <div class="callout-title">⚠️ Правила не отменяют друг друга!</div>
+            <p>Эти 3 правила действуют всегда. Дополнительные правила, которые даются ежедневно, не отменяют старые, если менеджер чётко не указал на это. Все правила копятся и действуют одновременно.</p>
+          </div>
+
+          <h3>8.2 Рукава: плавные переходы (стыки)</h3>
+          <ul class="styled-list">
+            <li><strong>Приоритет стыков:</strong> в первую очередь подбирайте текстуру на стыках (рукав ↔ туловище).</li>
+            <li><strong>Плавный переход цвета:</strong> оттенки должны плавно переходить, без резких границ.</li>
+            <li><strong>Направление энергии:</strong> все части футболки — единое направление «потока» дизайна.</li>
+            <li><strong>Без рапорта:</strong> нигде не должно быть заметного повторяющегося паттерна.</li>
+          </ul>
+
+          <h3>8.3 Артефакты</h3>
+          <p>«Артефакт» — любая визуальная ошибка: белая линия, квадратная форма, закруглённые углы, пиксельные блоки. Замечайте и устраняйте.</p>
+
+          <h3>8.4 Цвет</h3>
+          <ul class="styled-list">
+            <li>Не кислотный, не токсичный — цвета приближены к «правде».</li>
+            <li>Не бледный — но и не чрезмерно яркий.</li>
+            <li>Всегда проверяйте цвет на 3D-модели в CLO 3D (2D и 3D сильно отличаются!).</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 9: Отчётность -->
+    <section class="content-section" id="section-9">
+      <div class="card reveal">
+        <div class="card-header">
+          <span class="card-number">09</span>
+          <h2>Отчётность, скриншоты и файлы</h2>
+        </div>
+        <div class="card-body">
+          <div class="callout callout-info">
+            <div class="callout-title">📸 ГЛАВНОЕ ПРАВИЛО: Всегда скриншоты!</div>
+            <p>Присылайте как можно больше скриншотов. Есть 2 типа:</p>
+          </div>
+
+          <div class="split-cards">
+            <div class="mini-card">
+              <div class="mini-card-label">🖥️ Скриншоты процесса</div>
+              <p>Генерация, работа, вопросы — всегда <strong>ПОЛНЫЙ ЭКРАН</strong>, чтобы менеджер видел весь контекст.</p>
+            </div>
+            <div class="mini-card accent">
+              <div class="mini-card-label">👕 Скриншоты готовой футболки</div>
+              <p>Только сама футболка из CLO 3D, без лишнего. Файл <code>.zprj</code> отправляйте отдельно через Reply.</p>
+            </div>
+          </div>
+
+          <h3>Правила скриншотов</h3>
+          <ul class="styled-list">
+            <li><strong>Полный экран</strong> — всегда ПОЛНЫЙ экран, не обрезанный кусок.</li>
+            <li><strong>Обводите выбранное:</strong> кружком или выделением.</li>
+            <li><strong>Показывайте промпт:</strong> чтобы видно, из какого промпта получился результат.</li>
+            <li><strong>ТОП-3:</strong> отметьте эмодзи 3 лучших варианта в Telegram.</li>
+            <li>К каждому <code>.zprj</code> — скриншот: через Reply, чтобы видно что внутри.</li>
+          </ul>
+
+          <h3>Трекинг времени</h3>
+          <div class="code-tags">
+            <code class="code-tag">/in</code> — начало работы
+            <code class="code-tag">/out</code> — пауза или конец дня
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 10: Оплата -->
+    <section class="content-section" id="section-10">
+      <div class="card reveal">
+        <div class="card-header">
+          <span class="card-number">10</span>
+          <h2>Оплата и заработок 💰</h2>
+        </div>
+        <div class="card-body">
+          <div class="salary-highlight">
+            <div class="salary-main">
+              <span class="salary-amount">30 000 ₽</span>
+              <span class="salary-period">/месяц</span>
+            </div>
+            <p class="salary-rate">при 40 часах в неделю = ~175 ₽/час</p>
+          </div>
+
+          <h3>📊 Сколько можно заработать?</h3>
+          <div class="callout callout-success">
+            <div class="callout-title">🔥 Как получить 71 000 ₽ в месяц?</div>
+            <p>Многие наши дизайнеры работают по 80 часов в неделю, потому что работа рутинная и ненапряжная. Расчёт простой:</p>
+            <p class="salary-calc">175 ₽/час × 80 часов × 4 недели = <strong>56 000 ₽</strong> база + бонус ≈ 15 000 ₽ = <strong class="gradient-text">71 000 ₽ в месяц 🎉</strong></p>
+            <p>Уже в первый месяц вы можете получить эту сумму, если будете стараться и работать много!</p>
+          </div>
+
+          <h3>💳 Порядок выплат</h3>
+          <ul class="styled-list">
+            <li><strong>На старте:</strong> оплата день в день — если вы обещаете прийти и работать дальше.</li>
+            <li><strong>После адаптации:</strong> переход на выплаты раз в 2 недели.</li>
+            <li><strong>Способ:</strong> переводы на карту РФ (Тинькофф, Сбербанк и т.д.).</li>
+          </ul>
+
+          <h3>🎯 Бонусы</h3>
+          <ul class="styled-list">
+            <li>От <strong>5% до 50%</strong> от базовой ставки за точное соблюдение ТЗ, скорость и красивые результаты.</li>
+            <li>Особенно ценится скорость работы — чем быстрее и качественнее, тем выше бонус.</li>
+          </ul>
+
+          <h3>📈 Рост ставки</h3>
+          <p>Повышение базовой ставки возможно через 5-7 месяцев успешной работы. Решение принимается совместно с главными менеджерами по результатам.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Audio -->
+    <section class="content-section" id="section-audio">
+      <div class="card reveal">
+        <div class="card-header">
+          <span class="card-number">🎧</span>
+          <h2>Аудио версия инструкции</h2>
+        </div>
+        <div class="card-body">
+          <p>Предпочитаете слушать? Вот полная аудио версия всего руководства. Выберите голос:</p>
+          <div class="audio-cards">
+            <div class="audio-card">
+              <div class="audio-avatar">🎙️</div>
+              <div class="audio-info">
+                <strong>Мужской голос — Дмитрий</strong>
+                <p>Полная версия инструкции</p>
+              </div>
+            </div>
+            <div class="audio-card">
+              <div class="audio-avatar">🎙️</div>
+              <div class="audio-info">
+                <strong>Женский голос — Светлана</strong>
+                <p>Полная версия инструкции</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 12: День из жизни -->
+    <section class="content-section" id="section-12">
+      <div class="card reveal">
+        <div class="card-header">
+          <span class="card-number">🌅</span>
+          <h2>День из жизни ассистента</h2>
+        </div>
+        <div class="card-body">
+          <p>Типичный рабочий день выглядит так (часовой пояс МСК):</p>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-badge in">/in</div>
+              <div class="timeline-content">
+                <p>Пишете <code>/in</code> в Telegram. Открываете CLO 3D и Midjourney.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-badge">📋</div>
+              <div class="timeline-content">
+                <p>Менеджер даёт задание: промпт + <code>.zprj</code> файл + референс.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-badge">🎨</div>
+              <div class="timeline-content">
+                <p>Генерация в Midjourney (Create) — 20-30 вариантов. Выбираете ТОП-5 центров.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-badge">✏️</div>
+              <div class="timeline-content">
+                <p>Edit в Midjourney — расширение лучших центров, убираете артефакты.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-badge out">/out</div>
+              <div class="timeline-content">
+                <p>☕ Перерыв! Пишете <code>/out</code>. Завтрак, кофе, отдых.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-badge in">/in</div>
+              <div class="timeline-content">
+                <p>Пишете <code>/in</code>. Возвращаетесь к работе.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-badge">👕</div>
+              <div class="timeline-content">
+                <p>Наложение текстур в CLO 3D. Скриншоты каждого варианта в чат.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-badge out">/out</div>
+              <div class="timeline-content">
+                <p>🍽 Обед. <code>/out</code>.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-badge in">/in</div>
+              <div class="timeline-content">
+                <p><code>/in</code>. Доработка по фидбеку менеджера. Ещё 5-7 вариаций.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-badge">📸</div>
+              <div class="timeline-content">
+                <p>Финальные скриншоты, отметка ТОП-3, отправка <code>.zprj</code> файлов.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-badge out">/out</div>
+              <div class="timeline-content">
+                <p>Пишете <code>/out</code>. Рабочий день завершён! 🎉 Итого ~8 часов.</p>
+              </div>
+            </div>
+          </div>
+          <div class="callout callout-info">
+            <div class="callout-title">💡 Гибкий график</div>
+            <p>Вы можете разбить 8 часов на весь день как удобно. Главное — набирать 40 часов в неделю и быть на связи в рабочее время.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 13: Чеклист -->
+    <section class="content-section" id="section-13">
+      <div class="card reveal">
+        <div class="card-header">
+          <span class="card-number">✅</span>
+          <h2>Чеклист первого дня</h2>
+        </div>
+        <div class="card-body">
+          <p>Пройдите все пункты по порядку в первые 2 часа работы:</p>
+          <div class="checklist">
+            <div class="checklist-item"><span class="check-num">1</span><div><strong>Напишите <code>/in</code> в рабочий чат</strong><p>Таймер начинает считать ваше время.</p></div></div>
+            <div class="checklist-item"><span class="check-num">2</span><div><strong>Откройте CLO 3D и загрузите тестовый <code>.zprj</code> файл</strong><p>Убедитесь, что программа работает и модель отображается.</p></div></div>
+            <div class="checklist-item"><span class="check-num">3</span><div><strong>Войдите в Midjourney через выданный Discord-аккаунт</strong><p>Проверьте: midjourney.com → Create → введите тестовый промпт.</p></div></div>
+            <div class="checklist-item"><span class="check-num">4</span><div><strong>Сделайте первый скриншот и отправьте в чат</strong><p>Полный экран CLO 3D с открытым проектом.</p></div></div>
+            <div class="checklist-item"><span class="check-num">5</span><div><strong>Сгенерируйте 4-5 вариантов по промпту менеджера</strong><p>Скриншоты всех вариантов → в чат → отметьте лучший.</p></div></div>
+            <div class="checklist-item"><span class="check-num">6</span><div><strong>Наложите лучший вариант на 3D-модель</strong><p>Скачайте из Midjourney → перетащите в CLO 3D → скриншот.</p></div></div>
+            <div class="checklist-item"><span class="check-num">7</span><div><strong>Сохраните <code>.zprj</code> и отправьте в чат через Reply</strong><p>Reply на скриншот, чтобы было видно что внутри файла.</p></div></div>
+            <div class="checklist-item"><span class="check-num">8</span><div><strong>Спросите менеджера: «Всё верно? Продолжать?»</strong><p>Первый день — задавайте как можно больше вопросов!</p></div></div>
+          </div>
+
+          <div class="callout callout-info">
+            <div class="callout-title">🤝 Чего мы НЕ ожидаем от вас в первый день</div>
+            <ul>
+              <li>Не нужно быть профессиональным дизайнером — мы всему научим</li>
+              <li>Не нужно знать промпты наизусть — мы дадим шаблоны</li>
+              <li>Не нужно делать «идеально» — важна скорость и количество вариантов</li>
+              <li>Не нужно стесняться задавать вопросы — это приветствуется!</li>
+              <li>Не нужно работать без перерывов — отдых обязателен</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 14: Хорошо vs Плохо -->
+    <section class="content-section" id="section-14">
+      <div class="card reveal">
+        <div class="card-header">
+          <span class="card-number">⚖️</span>
+          <h2>Хорошо vs Плохо: визуальное сравнение</h2>
+        </div>
+        <div class="card-body">
+          <p>Используйте это как быстрый чеклист при оценке своих дизайнов:</p>
+
+          <h3>14.1 Масштаб и композиция</h3>
+          <div class="compare-grid">
+            <div class="compare-card good">
+              <div class="compare-label">✅ Хорошо</div>
+              <ul>
+                <li>Много «сюжетов» равномерно по футболке</li>
+                <li>Нет больших пустых однотонных зон</li>
+                <li>Баланс — левая и правая стороны уравновешены</li>
+                <li>Центр дизайна читается с расстояния 2м</li>
+              </ul>
+            </div>
+            <div class="compare-card bad">
+              <div class="compare-label">❌ Плохо</div>
+              <ul>
+                <li>Один крупный элемент и много пустого места</li>
+                <li>Все «сюжеты» скопились в одном углу</li>
+                <li>Дисбаланс — одна сторона тяжелее другой</li>
+                <li>Дизайн «размытый» и не привлекает взгляд</li>
+              </ul>
+            </div>
+          </div>
+
+          <h3>14.2 Стыки и переходы</h3>
+          <div class="compare-grid">
+            <div class="compare-card good">
+              <div class="compare-label">✅ Хорошо</div>
+              <ul>
+                <li>Плавный переход цвета рукав → туловище</li>
+                <li>Единое «направление энергии» по всем частям</li>
+                <li>На стыках нет резких полос и артефактов</li>
+                <li>Рисунок «перетекает» с одной части на другую</li>
+              </ul>
+            </div>
+            <div class="compare-card bad">
+              <div class="compare-label">❌ Плохо</div>
+              <ul>
+                <li>Видна чёткая линия между рукавом и туловищем</li>
+                <li>Цвет рукава и туловища не совпадает</li>
+                <li>Белые линии на стыках</li>
+                <li>Заметный повтор паттерна (рапорт)</li>
+              </ul>
+            </div>
+          </div>
+
+          <h3>14.3 Цвет и качество</h3>
+          <div class="compare-grid">
+            <div class="compare-card good">
+              <div class="compare-label">✅ Хорошо</div>
+              <ul>
+                <li>Естественные, «настоящие» цвета</li>
+                <li>Насыщенный, но не кричащий</li>
+                <li>Выглядит дорого и качественно на 3D-модели</li>
+                <li>Нет пиксельных артефактов</li>
+              </ul>
+            </div>
+            <div class="compare-card bad">
+              <div class="compare-label">❌ Плохо</div>
+              <ul>
+                <li>«Кислотные», ненатуральные цвета</li>
+                <li>Слишком бледный или слишком яркий</li>
+                <li>Видны квадратные блоки, белые линии</li>
+                <li>Закруглённые углы от Midjourney не убраны</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 15: Ошибки новичков -->
+    <section class="content-section" id="section-15">
+      <div class="card reveal">
+        <div class="card-header">
+          <span class="card-number">⚠️</span>
+          <h2>Типичные ошибки новичков и как их исправить</h2>
+        </div>
+        <div class="card-body">
+          <div class="mistakes-table">
+            <div class="mistake-row header">
+              <div>Ошибка</div>
+              <div>Как исправить</div>
+            </div>
+            <div class="mistake-row">
+              <div>Белые линии на стыках</div>
+              <div>Используйте ластик в Midjourney Edit или обрезайте вокруг</div>
+            </div>
+            <div class="mistake-row">
+              <div>Кислотные цвета</div>
+              <div>Проверяйте на 3D-модели. Цвета должны быть «настоящими»</div>
+            </div>
+            <div class="mistake-row">
+              <div>Забыли <code>/in</code></div>
+              <div>Всегда начинайте день с <code>/in</code> — это ваш таймер</div>
+            </div>
+            <div class="mistake-row">
+              <div>Обрезанные скриншоты</div>
+              <div>Всегда полный экран для процесса, только футболка для результата</div>
+            </div>
+            <div class="mistake-row">
+              <div>Мало вариантов</div>
+              <div>Минимум 10 финальных версий за 8 часов</div>
+            </div>
+            <div class="mistake-row">
+              <div>Разъединили слои</div>
+              <div>Никогда не делайте это без менеджера на screenshare</div>
+            </div>
+            <div class="mistake-row">
+              <div>Закруглённые углы</div>
+              <div>Скачайте и загрузите файлом (drag & drop), не копируйте</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 16: Глоссарий -->
+    <section class="content-section" id="section-16">
+      <div class="card reveal">
+        <div class="card-header">
+          <span class="card-number">📖</span>
+          <h2>Глоссарий терминов</h2>
+        </div>
+        <div class="card-body">
+          <p>Нажмите на термин, чтобы увидеть определение:</p>
+          <div class="glossary">
+            <div class="glossary-item">
+              <button class="glossary-term">All-over print</button>
+              <div class="glossary-def">Печать по всей поверхности ткани — рисунок покрывает футболку полностью, без пустых зон.</div>
+            </div>
+            <div class="glossary-item">
+              <button class="glossary-term">Sublimation</button>
+              <div class="glossary-def">Сублимационная печать — технология переноса изображения на синтетическую ткань через нагрев. Даёт яркие, стойкие цвета.</div>
+            </div>
+            <div class="glossary-item">
+              <button class="glossary-term">Рапорт</button>
+              <div class="glossary-def">Повторяющийся элемент паттерна. В нашей работе рапорт — это плохо, дизайн не должен выглядеть как обои с повтором.</div>
+            </div>
+            <div class="glossary-item">
+              <button class="glossary-term">Артефакт</button>
+              <div class="glossary-def">Любая визуальная ошибка в дизайне: белые линии, квадратные блоки, закруглённые углы, пиксельные области.</div>
+            </div>
+            <div class="glossary-item">
+              <button class="glossary-term">Промпт / Prompt</button>
+              <div class="glossary-def">Текстовая команда для Midjourney на английском языке, описывающая желаемый дизайн.</div>
+            </div>
+            <div class="glossary-item">
+              <button class="glossary-term">.zprj</button>
+              <div class="glossary-def">Формат проектного файла CLO 3D. Содержит 3D-модель с наложенными текстурами.</div>
+            </div>
+            <div class="glossary-item">
+              <button class="glossary-term">Screenshare</button>
+              <div class="glossary-def">Показ экрана в реальном времени во время звонка. Используется для обучения и проверки работы.</div>
+            </div>
+            <div class="glossary-item">
+              <button class="glossary-term">Back Yoke / Binding</button>
+              <div class="glossary-def">Части конструкции футболки. Back Yoke — верхняя часть спинки. Binding — окантовка горловины.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section FAQ -->
+    <section class="content-section" id="section-faq">
+      <div class="card reveal">
+        <div class="card-header">
+          <span class="card-number">❓</span>
+          <h2>Частые вопросы (FAQ) — 16 вопросов</h2>
+        </div>
+        <div class="card-body">
+          <div class="faq-list">
+            <div class="faq-item">
+              <button class="faq-question">Нужен ли опыт в дизайне?</button>
+              <div class="faq-answer">Нет, мы всему научим. Главное — внимательность и скорость выполнения инструкций.</div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">Можно ли совмещать с основной работой?</button>
+              <div class="faq-answer">Нет, это полная занятость на 40 часов в неделю. Совмещение не допускается.</div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">Какой компьютер нужен?</button>
+              <div class="faq-answer">ПК или Mac, который стабильно запускает CLO 3D. Минимум 8 ГБ RAM, стабильный интернет.</div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">А если я не знаю английский?</button>
+              <div class="faq-answer">На старте мы дадим шаблоны промптов. Но со временем нужен базовый письменный английский.</div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">Когда начинается рабочий день?</button>
+              <div class="faq-answer">Идеально с 5:00 МСК, но вы можете предложить свой график. Главное — 40 часов/неделю.</div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">Как быстро начнётся обучение?</button>
+              <div class="faq-answer">Сразу после успешного тестового созвона. Обучение идёт в процессе работы.</div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">Как часто платят?</button>
+              <div class="faq-answer">В начале — день в день. После адаптации — раз в 2 недели.</div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">Есть ли испытательный срок?</button>
+              <div class="faq-answer">Тестовый созвон (1 час) — это и есть начальная проверка. Дальше — работа с первого дня.</div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">Можно ли работать из-за границы?</button>
+              <div class="faq-answer">Да, главное — стабильный интернет и удобный график.</div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">Что делать при технических проблемах?</button>
+              <div class="faq-answer">Напишите менеджеру в Telegram с полным скриншотом проблемы. Мы поможем разобраться.</div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">Какие программы нужны?</button>
+              <div class="faq-answer">CLO 3D (обязательно), Photoshop и Illustrator (желательно), Telegram (обязательно).</div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">Сколько дизайнов нужно делать в день?</button>
+              <div class="faq-answer">Минимум 10 финальных версий одного дизайна за 8-часовой день.</div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">Могу ли я работать по выходным?</button>
+              <div class="faq-answer">Да, если хотите набрать больше часов. Оплата та же — 175 ₽/час + бонусы.</div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">Нужна ли веб-камера?</button>
+              <div class="faq-answer">Нет, камеру включать не нужно. Только screenshare (показ экрана).</div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">Как связаться с менеджером?</button>
+              <div class="faq-answer">Через Telegram-группу, которую мы создадим при приёме на работу.</div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">Что если я не успеваю за день?</button>
+              <div class="faq-answer">Сообщите менеджеру. Скорость придёт с опытом. На старте важнее качество и следование инструкциям.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-inner reveal">
+        <p>🚀 Готовы начать или есть вопросы? Пишите нашему менеджеру в Telegram:</p>
+        <a href="https://t.me/artofuture" target="_blank" rel="noopener" class="footer-link">@artofuture</a>
+        <div class="footer-version">Полная Инструкция V4 — 2026</div>
+      </div>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
